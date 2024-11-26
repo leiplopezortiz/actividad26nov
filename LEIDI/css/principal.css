@@ -1,0 +1,170 @@
+header{
+  display: flex;
+  justify-content: space-around;
+}
+h1{
+  color: rgb(13, 132, 46);
+}
+
+p{
+  color:rgb( 173, 34, 34);
+}
+h2{
+  color: rgb( 173, 34, 34);
+  font-size: 40px;
+}
+
+body{
+  background-color: rgb(231, 228, 247);
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+}
+
+.sprinkle {
+  position:absolute;
+  border-radius: 100vh;
+  z-index: 100;
+  animation: bounce-in-sprinkles 0.5s forwards;
+  /* box-shadow: 1vh 1vh 0 rgba(65, 12, 12, 0.445);
+  background-color: rgb(180, 17, 44); */
+  z-index: -1;
+}
+
+.one {
+  transform: rotate(60deg);
+  background-color: sprinkle;
+  box-shadow: 1vh 1vh 0 rgba(204, 77, 77, 0.466);
+  background-color: rgb(241, 64, 41);
+  top: 35%;
+  left: 80%;
+  animation-delay: 1s;
+}
+
+.two {
+  transform: rotate(-60deg);
+  background-color: sprinkle;
+  top: 70%;
+  left: 67%;
+  animation-delay: 1.5s;
+  background-color: rgb(253, 216, 49);
+  box-shadow: 1vh 1vh 0 rgba(243, 233, 100, 0.445);
+}
+
+.three {
+  transform: rotate(10deg);
+  background-color: sprinkle;
+  top: 20%;
+  left: 44%;
+  animation-delay: 1.25s;
+  background-color: rgb(17, 227, 255);
+  box-shadow: 1vh 1vh 0 rgba(132, 218, 233, 0.445);
+}
+
+.four {
+  transform: rotate(-30deg);
+  background-color: sprinkle;
+  background-color: rgb(35, 119, 245);
+  box-shadow: 1vh 1vh 0 rgba(118, 130, 238, 0.445);
+  top: 60%;
+  left: 87%;
+  animation-delay: 1s;
+}
+
+.five {
+  transform: rotate(67deg);
+  background-color: sprinkle;
+  background-color: rgb(95, 53, 247);
+  box-shadow: 1vh 1vh 0 rgba(139, 119, 233, 0.445);
+  top: 50%;
+  left: 52%;
+  animation-delay: 1.5s;
+}
+
+.six {
+  transform: rotate(90deg);
+  background-color: sprinkle;
+  background-color: rgba(211, 74, 238, 0.5);
+  box-shadow: 1vh 1vh 0 rgba(222, 126, 241, 0.445);
+  top: 47%;
+  left: 32%;
+  animation-delay: 1.5s;
+}
+
+.seven {
+  transform: rotate(-45deg);
+  background-color: sprinkle;
+  background-color: rgb(90, 73, 250);
+  box-shadow: 1vh 1vh 0 rgba(115, 151, 252, 0.445);
+  top: 20%;
+  left: 63%;
+  animation-delay: 1.25s;
+}
+
+.eight {
+  transform: rotate(20deg);
+  background-color: sprinkle;
+  background-color: rgb(172, 74, 238);
+  box-shadow: 1vh 1vh 0 rgba(166, 126, 241, 0.445);
+  top: 80%;
+  left: 50%;
+  animation-delay: 1s;
+}
+.nine {
+  transform: rotate(-120deg);
+  background-color: sprinkle;
+  background-color: rgb(243, 97, 170);
+  box-shadow: 1vh 1vh 0 rgba(241, 126, 197, 0.445);
+  top: 80%;
+  left: 490px;
+  animation-delay: 1.5s;
+}
+
+.ten {
+  transform: rotate(-10deg);
+  background-color: sprinkle;
+  background-color: rgb(124, 214, 40);
+  box-shadow: 1vh 1vh 0 rgba(126, 241, 151, 0.445);
+  top: 12.5%;
+  left: 450px;
+  animation-delay: 1s;
+}
+
+.eleven {
+  transform: rotate(50deg);
+  background-color: sprinkle;
+  background-color: rgb(255, 11, 214);
+  box-shadow: 1vh 1vh 0 rgba(255, 11, 214, 0.432);
+  top: 30%;
+  left: 70px;
+  animation-delay: 1.25s;
+}
+
+.twelve {
+  transform: rotate(-20deg);
+  background-color: sprinkle;
+  background-color: rgb(250, 23, 72);
+  box-shadow: 1vh 1vh 0 rgba(250, 23, 73, 0.486);
+  top: 50%;
+  left: 250px;
+  animation-delay: 1s;
+}
+
+@keyframes bounce-in-sprinkles {
+  0% {
+    opacity: 0;
+    height: 0;
+    width: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    height: 7.66667vh;
+    width: 2.875vh;
+  }
+  100% {
+    height: 6.66667vh;
+    width: 2.5vh;
+  }
+}
