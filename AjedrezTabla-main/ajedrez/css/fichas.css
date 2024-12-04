@@ -1,0 +1,30 @@
+table{
+    width: 1000px;
+}
+main{
+    border: dotted;
+    margin: 5px;
+    padding: 10px;
+}
+.caja1{
+    display: inline-block;
+    width: 50px;
+    height: 100px;
+    border-radius: 5px;
+    border: solid rgb(131, 93, 89);
+    padding: 65px;
+    background-color: beige;
+}
+.caja2{
+    display: inline-block;
+    width: 50px;
+    height: 100px;
+    border-radius: 5px;
+    border: solid rgb(131, 93, 89);
+    padding: 65px;
+    background-color: gray;
+}
+img{
+    height: 100%;
+    width: 200%;
+}

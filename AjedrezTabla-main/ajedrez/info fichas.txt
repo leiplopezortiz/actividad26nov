@@ -1,0 +1,20 @@
+PEON
+El peón es la pieza menos poderosa de todas, con un valor de tan solo un punto. Si se mueve por primera vez, puede avanzar una o dos casillas. En caso de que ya lo haya hecho, su avance será únicamente de una. A la hora de atacar (o capturar) las piezas adversarias, lo hará en diagonal, bien a la derecha o a la izquierda, en la casilla justo delante de él. En el siguiente diagrama, el peón acaba de desplazarse desde e2 hasta e4, y ataca las casillas d5 y f5.
+
+ALFIL
+El alfil se considera una pieza menor (al igual que el caballo) y tiene un valor de tres puntos. Puede desplazarse en diagonal, tantas casillas como desee, siempre y cuando no esté bloqueado por sus propias piezas o la casilla en la quiera situarse ya esté ocupada. Un método fácil para recordar el movimiento del alfil es pensar en la forma de una "X". Puede capturar una pieza enemiga moviéndose a la casilla ocupada por la misma. 
+
+CABALLO
+Al igual que el alfil, el caballo se considera una pieza menor y tiene un valor de tres puntos. ¡El caballo es la única pieza de ajedrez que puede saltar a otras! Se mueve una casilla a la derecha o a la izquierda horizontalmente y otras dos hacia delante o hacia atrás de forma vertical, O BIEN dos casillas a la derecha o a la izquierda horizontalmente y otra hacia delante o hacia atrás de forma vertical—en otras palabras, el caballo salta describiendo la forma de una "L". ¡Captura únicamente la pieza situada en la casilla a la que se desplaza y no aquellas a las que salta!
+
+TORRE
+La torre se considera una pieza mayor (al igual que la dama) y tiene un valor de cinco puntos. Puede desplazarse en línea recta tantas casillas como desee, tanto a la derecha como a la izquierda, ya sea horizontal o verticalmente (siempre y cuando no esté bloqueada por otras piezas). Un método fácil para recordar el movimiento de la torre es pensar en la forma del signo "+".
+
+DAMA
+Al igual que la torre, la dama se considera una pieza mayor y tiene un valor de nueve puntos. Puede desplazarse tantas casillas como desee a derecha e izquierda horizontalmente o bien hacia delante o hacia atrás de forma vertical (como la torre). Además, la dama puede moverse también tantas casillas como desee en diagonal (como el alfil). ¡Un método fácil para recordar el movimiento de la dama es pensar en la acción combinada de la torre y el alfil! 
+
+REY
+El rey no es una pieza muy poderosa, ya que solo puede desplazarse (o capturar) una casilla en cualquier dirección. ¡Un factor a tener en cuenta es que el rey no puede capturarse! Cuando un rey se encuentra atacado, se dice que está en "jaque."
+
+LINK
+
